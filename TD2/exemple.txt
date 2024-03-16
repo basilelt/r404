@@ -1,0 +1,5 @@
+Bienvenue dans le monde de la programmation !
+Ceci est un exemple de texte en français.
+Il contient plusieurs lignes pour tester vos expressions régulières.
+N'hésitez pas à les utiliser pour trouver des motifs spécifiques.
+Bonne chance dans vos recherches !

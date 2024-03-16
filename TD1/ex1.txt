@@ -1,0 +1,25 @@
+Get-ChildItem: Cette commande PowerShell récupère les éléments (fichiers, dossiers) dans un emplacement spécifié.
+
+Get-Service: Cette commande PowerShell récupère le statut des services sur une machine.
+
+Get-Command: Cette commande PowerShell récupère toutes les commandes PowerShell disponibles.
+
+Get-Process: Cette commande PowerShell récupère les informations sur les processus en cours d'exécution sur une machine.
+
+Get-Help: Cette commande PowerShell affiche l'aide pour une commande spécifique.
+
+Get-Location: Cette commande PowerShell récupère le chemin d'accès au répertoire de travail actuel.
+
+New-Item: Cette commande PowerShell crée un nouvel élément, comme un fichier ou un dossier.
+
+Get-Member: Cette commande PowerShell récupère les propriétés et les méthodes d'un objet.
+
+Add-Content: Cette commande PowerShell ajoute du contenu à un fichier spécifique.
+
+Get-ItemProperty: Cette commande PowerShell récupère les propriétés d'un élément spécifique.
+
+Get-Item: Cette commande PowerShell récupère un élément spécifique.
+
+Measure-Object: Cette commande PowerShell mesure les propriétés d'un objet, comme la longueur d'une chaîne de caractères ou la taille d'un fichier.
+
+Sort-Object: Cette commande PowerShell trie les objets par propriétés spécifiques.

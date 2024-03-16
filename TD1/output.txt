@@ -1,0 +1,7 @@
+
+New-Item MonFichier.txt
+New-Item -ItemType Directory -Path ./D1
+New-Item -ItemType Directory -Path ./D1/D3
+New-Item -ItemType Directory -Path ./D1/D2
+New-Item -ItemType Directory -Path ./D1/D2/D4
+

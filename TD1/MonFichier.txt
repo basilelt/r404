@@ -1,0 +1,25 @@
+Voici les commandes utilisées:
+
+`n: saut de ligne
+
+New-Item MonFichier.txt
+Set-Content -Path ./MonFichier.txt -Value 'texte'
+
+Get-Content ./MonFichier.txt
+Add-Content -Path ./MonFichier.txt -Value 'texte'
+
+### New-Item -ItemType Directory -Path ./D1
+New-Item -ItemType Directory -Path ./D1/D3
+## New-Item -ItemType Directory -Path ./D1/D2
+New-Item -ItemType Directory -Path ./D1/D2/D4
+
+mv ./MonFichier.txt ./D1/D2/D4
+
+(Get-Command).Count
+Get-Command | Measure-Object
+
+Get-Content ./MonFichier.txt | Select-Object -Last 10
+
+Get-Content ./MonFichier.txt | Select-Object -Index 2
+
+Get-Content ./MonFichier.txt | Select-String  -Pattern "New-Item" *> output.txt
