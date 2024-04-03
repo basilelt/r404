@@ -1,5 +1,5 @@
 "aaaa" -match "[A-Za-z]{4}"
 "test test" -match "\s"
 "jean-claude" -match "[-]"
-"AX-624-LP" -cmatch "[A-Z]{2}-[0-9]{3}-[A-Z]{2}"
+"AX-624-LP" -cmatch "[a-z]{2}-[0-9]{3}-[A-Z]{2}"
 "basile.le-thiec@uha.fr" -match "[A-Za-z]+-?[A-Za-z]+\.[A-Za-z]+-?[A-Za-z]+@uha\.fr"
