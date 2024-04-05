@@ -13,6 +13,7 @@ elif [[ ${#passvar} -lt 8 ]]
 then
     echo "Le mot de passe doit contenir au moins 8 caractères"
     exit 1
+# =~ permet de matcher une regex
 elif ! [[ $passvar =~ [0-9] ]]
 then
     echo "Le mot de passe doit contenir au moins un chiffre"
